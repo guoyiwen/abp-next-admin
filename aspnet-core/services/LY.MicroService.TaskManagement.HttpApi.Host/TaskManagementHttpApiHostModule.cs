@@ -44,7 +44,7 @@ namespace LY.MicroService.TaskManagement;
 [DependsOn(
     typeof(AbpSerilogEnrichersApplicationModule),
     typeof(AbpSerilogEnrichersUniqueIdModule),
-    typeof(AbpAuditLoggingElasticsearchModule),
+    //typeof(AbpAuditLoggingElasticsearchModule),
     typeof(AbpAspNetCoreSerilogModule),
     typeof(AbpDistributedLockingModule),
     typeof(AbpEntityFrameworkCoreMySQLModule),
@@ -75,7 +75,7 @@ namespace LY.MicroService.TaskManagement;
     typeof(AbpLocalizationCultureMapModule),
     typeof(AbpHttpClientWrapperModule),
     typeof(AbpAspNetCoreMvcWrapperModule),
-    typeof(AbpCAPEventBusModule),
+    //typeof(AbpCAPEventBusModule),
     typeof(AbpAutofacModule)
     )]
 public partial class TaskManagementHttpApiHostModule : AbpModule

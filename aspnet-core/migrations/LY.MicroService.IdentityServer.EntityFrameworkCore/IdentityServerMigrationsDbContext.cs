@@ -3,6 +3,7 @@ using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.Identity.EntityFrameworkCore;
 using Volo.Abp.IdentityServer.EntityFrameworkCore;
+using LINGYUN.Abp.LocalizationManagement.EntityFrameworkCore;
 
 namespace LY.MicroService.IdentityServer.EntityFrameworkCore;
 
@@ -21,5 +22,7 @@ public class IdentityServerMigrationsDbContext : AbpDbContext<IdentityServerMigr
 
         modelBuilder.ConfigureIdentity();
         modelBuilder.ConfigureIdentityServer();
+        modelBuilder.ConfigureLocalization();
+
     }
 }

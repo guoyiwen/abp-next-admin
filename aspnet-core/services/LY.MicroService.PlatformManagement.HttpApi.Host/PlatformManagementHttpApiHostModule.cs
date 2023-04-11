@@ -53,7 +53,7 @@ namespace LY.MicroService.PlatformManagement;
     typeof(AbpSerilogEnrichersApplicationModule),
     typeof(AbpSerilogEnrichersUniqueIdModule),
     typeof(AbpAspNetCoreSerilogModule),
-    typeof(AbpAuditLoggingElasticsearchModule),
+    //typeof(AbpAuditLoggingElasticsearchModule),
     typeof(AbpAspNetCoreMultiTenancyModule),
     typeof(AbpAspNetCoreMvcLocalizationModule),
     typeof(AbpUINavigationVueVbenAdminModule),
@@ -80,7 +80,7 @@ namespace LY.MicroService.PlatformManagement;
     typeof(AbpAuthorizationOrganizationUnitsModule),
     typeof(AbpNotificationsModule),
     typeof(AbpEmailingExceptionHandlingModule),
-    typeof(AbpCAPEventBusModule),
+    //typeof(AbpCAPEventBusModule),
     typeof(AbpFeaturesValidationRedisModule),
     // typeof(AbpFeaturesClientModule),// 当需要客户端特性限制时取消注释此模块
     // typeof(AbpFeaturesValidationRedisClientModule),// 当需要客户端特性限制时取消注释此模块

@@ -1,6 +1,7 @@
 ﻿using LINGYUN.Abp.Data.DbMigrator;
 using LINGYUN.Abp.Identity.EntityFrameworkCore;
 using LINGYUN.Abp.IdentityServer.EntityFrameworkCore;
+using LINGYUN.Abp.LocalizationManagement.EntityFrameworkCore;
 using LINGYUN.Abp.Saas.EntityFrameworkCore;
 using LINGYUN.Abp.WeChat;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,6 +16,7 @@ namespace LY.MicroService.IdentityServer.EntityFrameworkCore;
     typeof(AbpIdentityEntityFrameworkCoreModule),
     typeof(AbpIdentityServerEntityFrameworkCoreModule),
     typeof(AbpPermissionManagementEntityFrameworkCoreModule),
+    typeof(AbpLocalizationManagementEntityFrameworkCoreModule),
     typeof(AbpWeChatModule),
     typeof(AbpDataDbMigratorModule)
     )]

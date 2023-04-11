@@ -24,8 +24,8 @@ public class YouProjectModule : AbpModule
 ```json
 {
   "ConnectionStrings": {
-    "AbpIdentity": "Server=127.0.0.1;Database=Identity;User Id=root;Password=*",
-    "AbpAuditLogging": "Server=127.0.0.1;Database=AuditLogging;User Id=root;Password=*",
+    "AbpIdentity": "Server=192.168.0.120;Database=Identity;User Id=root;Password=*",
+    "AbpAuditLogging": "Server=192.168.0.120;Database=AuditLogging;User Id=root;Password=*",
   }
 }
 
